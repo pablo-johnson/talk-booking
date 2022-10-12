@@ -8,6 +8,8 @@ packages = [{include = "talk_booking"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+fastapi = "^0.85.0"
+uvicorn = "^0.18.3"
 
 
 [tool.poetry.group.dev.dependencies]
